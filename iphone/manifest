@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: TiSpinKit
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2016 by Your Company
+
+# these should not be edited
+name: TiSpinKit
+moduleid: com.bf.TiSpinKit
+guid: 9b8a087e-2f36-461e-b7f7-2ab65f8e7eb4
+platform: iphone
+minsdk: 5.3.1.GA
