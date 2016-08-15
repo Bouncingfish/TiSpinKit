@@ -8,32 +8,32 @@
 var win = Ti.UI.createWindow({
 	backgroundColor:'white'
 });
-var label = Ti.UI.createLabel();
-win.add(label);
-win.open();
+
 
 // TODO: write your module tests here
-var tispinkit = require('com.bf.TiSpinKit');
-Ti.API.info("module is => " + tispinkit);
+var TiSpinKit = require('com.bf.TiSpinKit');
+var actInd = TiSpinKit.createActivityIndicator({
+	top: 200, left: 100,
+	size: 20,
+	style: "FadingCircle",
+	color: "red"
 
-label.text = tispinkit.example();
+	//Plane
+	// CircleFlip
+	// Bounce
+	// Wave
+	// WanderingCubes
+	// Pulse
+	// ChasingDots
+	// ThreeBounce
+	// Circle
+	// 9CubeGrid
+	// WordPress
+	// FadingCircle
+	// FadingCircleAlt
+	// Arc
+	// ArcAlt - default
+});
 
-Ti.API.info("module exampleProp is => " + tispinkit.exampleProp);
-tispinkit.exampleProp = "This is a test value";
-
-if (Ti.Platform.name == "android") {
-	var proxy = tispinkit.createExample({
-		message: "Creating an example Proxy",
-		backgroundColor: "red",
-		width: 100,
-		height: 100,
-		top: 100,
-		left: 150
-	});
-
-	proxy.printMessage("Hello world!");
-	proxy.message = "Hi world!.  It's me again.";
-	proxy.printMessage("Hello world!");
-	win.add(proxy);
-}
-
+win.add(actInd);
+win.open();

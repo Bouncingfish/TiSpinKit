@@ -28,6 +28,45 @@
 		24DE9E1211C5FE74003F90F6 /* ComBfTiSpinKitModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComBfTiSpinKitModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* ComBfTiSpinKit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComBfTiSpinKit_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		E11C6F401D616AD000ADF444 /* RTSpinKit9CubeGridAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F1D1D616AD000ADF444 /* RTSpinKit9CubeGridAnimation.h */; };
+		E11C6F411D616AD000ADF444 /* RTSpinKit9CubeGridAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F1E1D616AD000ADF444 /* RTSpinKit9CubeGridAnimation.m */; };
+		E11C6F421D616AD000ADF444 /* RTSpinKitArcAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F1F1D616AD000ADF444 /* RTSpinKitArcAltAnimation.h */; };
+		E11C6F431D616AD000ADF444 /* RTSpinKitArcAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F201D616AD000ADF444 /* RTSpinKitArcAltAnimation.m */; };
+		E11C6F441D616AD000ADF444 /* RTSpinKitArcAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F211D616AD000ADF444 /* RTSpinKitArcAnimation.h */; };
+		E11C6F451D616AD000ADF444 /* RTSpinKitArcAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F221D616AD000ADF444 /* RTSpinKitArcAnimation.m */; };
+		E11C6F461D616AD000ADF444 /* RTSpinKitBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F231D616AD000ADF444 /* RTSpinKitBounceAnimation.h */; };
+		E11C6F471D616AD000ADF444 /* RTSpinKitBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F241D616AD000ADF444 /* RTSpinKitBounceAnimation.m */; };
+		E11C6F481D616AD000ADF444 /* RTSpinKitChasingDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F251D616AD000ADF444 /* RTSpinKitChasingDotsAnimation.h */; };
+		E11C6F491D616AD000ADF444 /* RTSpinKitChasingDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F261D616AD000ADF444 /* RTSpinKitChasingDotsAnimation.m */; };
+		E11C6F4A1D616AD000ADF444 /* RTSpinKitCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F271D616AD000ADF444 /* RTSpinKitCircleAnimation.h */; };
+		E11C6F4B1D616AD000ADF444 /* RTSpinKitCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F281D616AD000ADF444 /* RTSpinKitCircleAnimation.m */; };
+		E11C6F4C1D616AD000ADF444 /* RTSpinKitCircleFlipAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F291D616AD000ADF444 /* RTSpinKitCircleFlipAnimation.h */; };
+		E11C6F4D1D616AD000ADF444 /* RTSpinKitCircleFlipAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F2A1D616AD000ADF444 /* RTSpinKitCircleFlipAnimation.m */; };
+		E11C6F4E1D616AD000ADF444 /* RTSpinKitFadingCircleAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F2B1D616AD000ADF444 /* RTSpinKitFadingCircleAltAnimation.h */; };
+		E11C6F4F1D616AD000ADF444 /* RTSpinKitFadingCircleAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F2C1D616AD000ADF444 /* RTSpinKitFadingCircleAltAnimation.m */; };
+		E11C6F501D616AD000ADF444 /* RTSpinKitFadingCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F2D1D616AD000ADF444 /* RTSpinKitFadingCircleAnimation.h */; };
+		E11C6F511D616AD000ADF444 /* RTSpinKitFadingCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F2E1D616AD000ADF444 /* RTSpinKitFadingCircleAnimation.m */; };
+		E11C6F521D616AD000ADF444 /* RTSpinKitPlaneAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F2F1D616AD000ADF444 /* RTSpinKitPlaneAnimation.h */; };
+		E11C6F531D616AD000ADF444 /* RTSpinKitPlaneAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F301D616AD000ADF444 /* RTSpinKitPlaneAnimation.m */; };
+		E11C6F541D616AD000ADF444 /* RTSpinKitPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F311D616AD000ADF444 /* RTSpinKitPulseAnimation.h */; };
+		E11C6F551D616AD000ADF444 /* RTSpinKitPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F321D616AD000ADF444 /* RTSpinKitPulseAnimation.m */; };
+		E11C6F561D616AD000ADF444 /* RTSpinKitThreeBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F331D616AD000ADF444 /* RTSpinKitThreeBounceAnimation.h */; };
+		E11C6F571D616AD000ADF444 /* RTSpinKitThreeBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F341D616AD000ADF444 /* RTSpinKitThreeBounceAnimation.m */; };
+		E11C6F581D616AD000ADF444 /* RTSpinKitWanderingCubesAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F351D616AD000ADF444 /* RTSpinKitWanderingCubesAnimation.h */; };
+		E11C6F591D616AD000ADF444 /* RTSpinKitWanderingCubesAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F361D616AD000ADF444 /* RTSpinKitWanderingCubesAnimation.m */; };
+		E11C6F5A1D616AD000ADF444 /* RTSpinKitWaveAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F371D616AD000ADF444 /* RTSpinKitWaveAnimation.h */; };
+		E11C6F5B1D616AD000ADF444 /* RTSpinKitWaveAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F381D616AD000ADF444 /* RTSpinKitWaveAnimation.m */; };
+		E11C6F5C1D616AD000ADF444 /* RTSpinKitWordPressAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F391D616AD000ADF444 /* RTSpinKitWordPressAnimation.h */; };
+		E11C6F5D1D616AD000ADF444 /* RTSpinKitWordPressAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F3A1D616AD000ADF444 /* RTSpinKitWordPressAnimation.m */; };
+		E11C6F5E1D616AD000ADF444 /* RTSpinKitAnimating.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F3B1D616AD000ADF444 /* RTSpinKitAnimating.h */; };
+		E11C6F5F1D616AD000ADF444 /* RTSpinKitUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F3C1D616AD000ADF444 /* RTSpinKitUtils.h */; };
+		E11C6F601D616AD000ADF444 /* RTSpinKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F3D1D616AD000ADF444 /* RTSpinKitUtils.m */; };
+		E11C6F611D616AD000ADF444 /* RTSpinKitView.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F3E1D616AD000ADF444 /* RTSpinKitView.h */; };
+		E11C6F621D616AD000ADF444 /* RTSpinKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F3F1D616AD000ADF444 /* RTSpinKitView.m */; };
+		E11C6F651D616E8B00ADF444 /* ComBfTiSpinKitActivityIndicatorProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F631D616E8B00ADF444 /* ComBfTiSpinKitActivityIndicatorProxy.h */; };
+		E11C6F661D616E8B00ADF444 /* ComBfTiSpinKitActivityIndicatorProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F641D616E8B00ADF444 /* ComBfTiSpinKitActivityIndicatorProxy.m */; };
+		E11C6F6D1D61BB7700ADF444 /* ComBfTiSpinKitActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = E11C6F6B1D61BB7700ADF444 /* ComBfTiSpinKitActivityIndicator.h */; };
+		E11C6F6E1D61BB7700ADF444 /* ComBfTiSpinKitActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C6F6C1D61BB7700ADF444 /* ComBfTiSpinKitActivityIndicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +88,45 @@
 		AA747D9E0F9514B9006C5449 /* ComBfTiSpinKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComBfTiSpinKit_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libComBfTiSpinKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComBfTiSpinKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11C6F1D1D616AD000ADF444 /* RTSpinKit9CubeGridAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKit9CubeGridAnimation.h; sourceTree = "<group>"; };
+		E11C6F1E1D616AD000ADF444 /* RTSpinKit9CubeGridAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKit9CubeGridAnimation.m; sourceTree = "<group>"; };
+		E11C6F1F1D616AD000ADF444 /* RTSpinKitArcAltAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitArcAltAnimation.h; sourceTree = "<group>"; };
+		E11C6F201D616AD000ADF444 /* RTSpinKitArcAltAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitArcAltAnimation.m; sourceTree = "<group>"; };
+		E11C6F211D616AD000ADF444 /* RTSpinKitArcAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitArcAnimation.h; sourceTree = "<group>"; };
+		E11C6F221D616AD000ADF444 /* RTSpinKitArcAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitArcAnimation.m; sourceTree = "<group>"; };
+		E11C6F231D616AD000ADF444 /* RTSpinKitBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitBounceAnimation.h; sourceTree = "<group>"; };
+		E11C6F241D616AD000ADF444 /* RTSpinKitBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitBounceAnimation.m; sourceTree = "<group>"; };
+		E11C6F251D616AD000ADF444 /* RTSpinKitChasingDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitChasingDotsAnimation.h; sourceTree = "<group>"; };
+		E11C6F261D616AD000ADF444 /* RTSpinKitChasingDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitChasingDotsAnimation.m; sourceTree = "<group>"; };
+		E11C6F271D616AD000ADF444 /* RTSpinKitCircleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitCircleAnimation.h; sourceTree = "<group>"; };
+		E11C6F281D616AD000ADF444 /* RTSpinKitCircleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitCircleAnimation.m; sourceTree = "<group>"; };
+		E11C6F291D616AD000ADF444 /* RTSpinKitCircleFlipAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitCircleFlipAnimation.h; sourceTree = "<group>"; };
+		E11C6F2A1D616AD000ADF444 /* RTSpinKitCircleFlipAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitCircleFlipAnimation.m; sourceTree = "<group>"; };
+		E11C6F2B1D616AD000ADF444 /* RTSpinKitFadingCircleAltAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitFadingCircleAltAnimation.h; sourceTree = "<group>"; };
+		E11C6F2C1D616AD000ADF444 /* RTSpinKitFadingCircleAltAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitFadingCircleAltAnimation.m; sourceTree = "<group>"; };
+		E11C6F2D1D616AD000ADF444 /* RTSpinKitFadingCircleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitFadingCircleAnimation.h; sourceTree = "<group>"; };
+		E11C6F2E1D616AD000ADF444 /* RTSpinKitFadingCircleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitFadingCircleAnimation.m; sourceTree = "<group>"; };
+		E11C6F2F1D616AD000ADF444 /* RTSpinKitPlaneAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitPlaneAnimation.h; sourceTree = "<group>"; };
+		E11C6F301D616AD000ADF444 /* RTSpinKitPlaneAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitPlaneAnimation.m; sourceTree = "<group>"; };
+		E11C6F311D616AD000ADF444 /* RTSpinKitPulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitPulseAnimation.h; sourceTree = "<group>"; };
+		E11C6F321D616AD000ADF444 /* RTSpinKitPulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitPulseAnimation.m; sourceTree = "<group>"; };
+		E11C6F331D616AD000ADF444 /* RTSpinKitThreeBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitThreeBounceAnimation.h; sourceTree = "<group>"; };
+		E11C6F341D616AD000ADF444 /* RTSpinKitThreeBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitThreeBounceAnimation.m; sourceTree = "<group>"; };
+		E11C6F351D616AD000ADF444 /* RTSpinKitWanderingCubesAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitWanderingCubesAnimation.h; sourceTree = "<group>"; };
+		E11C6F361D616AD000ADF444 /* RTSpinKitWanderingCubesAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitWanderingCubesAnimation.m; sourceTree = "<group>"; };
+		E11C6F371D616AD000ADF444 /* RTSpinKitWaveAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitWaveAnimation.h; sourceTree = "<group>"; };
+		E11C6F381D616AD000ADF444 /* RTSpinKitWaveAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitWaveAnimation.m; sourceTree = "<group>"; };
+		E11C6F391D616AD000ADF444 /* RTSpinKitWordPressAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitWordPressAnimation.h; sourceTree = "<group>"; };
+		E11C6F3A1D616AD000ADF444 /* RTSpinKitWordPressAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitWordPressAnimation.m; sourceTree = "<group>"; };
+		E11C6F3B1D616AD000ADF444 /* RTSpinKitAnimating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitAnimating.h; sourceTree = "<group>"; };
+		E11C6F3C1D616AD000ADF444 /* RTSpinKitUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitUtils.h; sourceTree = "<group>"; };
+		E11C6F3D1D616AD000ADF444 /* RTSpinKitUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitUtils.m; sourceTree = "<group>"; };
+		E11C6F3E1D616AD000ADF444 /* RTSpinKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitView.h; sourceTree = "<group>"; };
+		E11C6F3F1D616AD000ADF444 /* RTSpinKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitView.m; sourceTree = "<group>"; };
+		E11C6F631D616E8B00ADF444 /* ComBfTiSpinKitActivityIndicatorProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComBfTiSpinKitActivityIndicatorProxy.h; path = Classes/ComBfTiSpinKitActivityIndicatorProxy.h; sourceTree = "<group>"; };
+		E11C6F641D616E8B00ADF444 /* ComBfTiSpinKitActivityIndicatorProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComBfTiSpinKitActivityIndicatorProxy.m; path = Classes/ComBfTiSpinKitActivityIndicatorProxy.m; sourceTree = "<group>"; };
+		E11C6F6B1D61BB7700ADF444 /* ComBfTiSpinKitActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComBfTiSpinKitActivityIndicator.h; path = Classes/ComBfTiSpinKitActivityIndicator.h; sourceTree = "<group>"; };
+		E11C6F6C1D61BB7700ADF444 /* ComBfTiSpinKitActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComBfTiSpinKitActivityIndicator.m; path = Classes/ComBfTiSpinKitActivityIndicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +152,7 @@
 		0867D691FE84028FC02AAC07 /* TiSpinKit */ = {
 			isa = PBXGroup;
 			children = (
+				E11C6F1B1D616AD000ADF444 /* SpinKit */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -93,10 +172,14 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E11C6F6B1D61BB7700ADF444 /* ComBfTiSpinKitActivityIndicator.h */,
+				E11C6F6C1D61BB7700ADF444 /* ComBfTiSpinKitActivityIndicator.m */,
 				24DE9E0F11C5FE74003F90F6 /* ComBfTiSpinKitModuleAssets.h */,
 				24DE9E1011C5FE74003F90F6 /* ComBfTiSpinKitModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* ComBfTiSpinKitModule.h */,
 				24DD6CF81134B3F500162E58 /* ComBfTiSpinKitModule.m */,
+				E11C6F631D616E8B00ADF444 /* ComBfTiSpinKitActivityIndicatorProxy.h */,
+				E11C6F641D616E8B00ADF444 /* ComBfTiSpinKitActivityIndicatorProxy.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -110,6 +193,56 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		E11C6F1B1D616AD000ADF444 /* SpinKit */ = {
+			isa = PBXGroup;
+			children = (
+				E11C6F1C1D616AD000ADF444 /* Animations */,
+				E11C6F3B1D616AD000ADF444 /* RTSpinKitAnimating.h */,
+				E11C6F3C1D616AD000ADF444 /* RTSpinKitUtils.h */,
+				E11C6F3D1D616AD000ADF444 /* RTSpinKitUtils.m */,
+				E11C6F3E1D616AD000ADF444 /* RTSpinKitView.h */,
+				E11C6F3F1D616AD000ADF444 /* RTSpinKitView.m */,
+			);
+			path = SpinKit;
+			sourceTree = "<group>";
+		};
+		E11C6F1C1D616AD000ADF444 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				E11C6F1D1D616AD000ADF444 /* RTSpinKit9CubeGridAnimation.h */,
+				E11C6F1E1D616AD000ADF444 /* RTSpinKit9CubeGridAnimation.m */,
+				E11C6F1F1D616AD000ADF444 /* RTSpinKitArcAltAnimation.h */,
+				E11C6F201D616AD000ADF444 /* RTSpinKitArcAltAnimation.m */,
+				E11C6F211D616AD000ADF444 /* RTSpinKitArcAnimation.h */,
+				E11C6F221D616AD000ADF444 /* RTSpinKitArcAnimation.m */,
+				E11C6F231D616AD000ADF444 /* RTSpinKitBounceAnimation.h */,
+				E11C6F241D616AD000ADF444 /* RTSpinKitBounceAnimation.m */,
+				E11C6F251D616AD000ADF444 /* RTSpinKitChasingDotsAnimation.h */,
+				E11C6F261D616AD000ADF444 /* RTSpinKitChasingDotsAnimation.m */,
+				E11C6F271D616AD000ADF444 /* RTSpinKitCircleAnimation.h */,
+				E11C6F281D616AD000ADF444 /* RTSpinKitCircleAnimation.m */,
+				E11C6F291D616AD000ADF444 /* RTSpinKitCircleFlipAnimation.h */,
+				E11C6F2A1D616AD000ADF444 /* RTSpinKitCircleFlipAnimation.m */,
+				E11C6F2B1D616AD000ADF444 /* RTSpinKitFadingCircleAltAnimation.h */,
+				E11C6F2C1D616AD000ADF444 /* RTSpinKitFadingCircleAltAnimation.m */,
+				E11C6F2D1D616AD000ADF444 /* RTSpinKitFadingCircleAnimation.h */,
+				E11C6F2E1D616AD000ADF444 /* RTSpinKitFadingCircleAnimation.m */,
+				E11C6F2F1D616AD000ADF444 /* RTSpinKitPlaneAnimation.h */,
+				E11C6F301D616AD000ADF444 /* RTSpinKitPlaneAnimation.m */,
+				E11C6F311D616AD000ADF444 /* RTSpinKitPulseAnimation.h */,
+				E11C6F321D616AD000ADF444 /* RTSpinKitPulseAnimation.m */,
+				E11C6F331D616AD000ADF444 /* RTSpinKitThreeBounceAnimation.h */,
+				E11C6F341D616AD000ADF444 /* RTSpinKitThreeBounceAnimation.m */,
+				E11C6F351D616AD000ADF444 /* RTSpinKitWanderingCubesAnimation.h */,
+				E11C6F361D616AD000ADF444 /* RTSpinKitWanderingCubesAnimation.m */,
+				E11C6F371D616AD000ADF444 /* RTSpinKitWaveAnimation.h */,
+				E11C6F381D616AD000ADF444 /* RTSpinKitWaveAnimation.m */,
+				E11C6F391D616AD000ADF444 /* RTSpinKitWordPressAnimation.h */,
+				E11C6F3A1D616AD000ADF444 /* RTSpinKitWordPressAnimation.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -117,9 +250,29 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11C6F651D616E8B00ADF444 /* ComBfTiSpinKitActivityIndicatorProxy.h in Headers */,
+				E11C6F541D616AD000ADF444 /* RTSpinKitPulseAnimation.h in Headers */,
+				E11C6F421D616AD000ADF444 /* RTSpinKitArcAltAnimation.h in Headers */,
+				E11C6F4C1D616AD000ADF444 /* RTSpinKitCircleFlipAnimation.h in Headers */,
+				E11C6F461D616AD000ADF444 /* RTSpinKitBounceAnimation.h in Headers */,
+				E11C6F6D1D61BB7700ADF444 /* ComBfTiSpinKitActivityIndicator.h in Headers */,
+				E11C6F441D616AD000ADF444 /* RTSpinKitArcAnimation.h in Headers */,
+				E11C6F581D616AD000ADF444 /* RTSpinKitWanderingCubesAnimation.h in Headers */,
+				E11C6F5C1D616AD000ADF444 /* RTSpinKitWordPressAnimation.h in Headers */,
+				E11C6F4A1D616AD000ADF444 /* RTSpinKitCircleAnimation.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* ComBfTiSpinKit_Prefix.pch in Headers */,
+				E11C6F611D616AD000ADF444 /* RTSpinKitView.h in Headers */,
+				E11C6F501D616AD000ADF444 /* RTSpinKitFadingCircleAnimation.h in Headers */,
+				E11C6F481D616AD000ADF444 /* RTSpinKitChasingDotsAnimation.h in Headers */,
+				E11C6F4E1D616AD000ADF444 /* RTSpinKitFadingCircleAltAnimation.h in Headers */,
+				E11C6F5A1D616AD000ADF444 /* RTSpinKitWaveAnimation.h in Headers */,
+				E11C6F401D616AD000ADF444 /* RTSpinKit9CubeGridAnimation.h in Headers */,
+				E11C6F521D616AD000ADF444 /* RTSpinKitPlaneAnimation.h in Headers */,
 				24DD6CF91134B3F500162E58 /* ComBfTiSpinKitModule.h in Headers */,
+				E11C6F5E1D616AD000ADF444 /* RTSpinKitAnimating.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* ComBfTiSpinKitModuleAssets.h in Headers */,
+				E11C6F561D616AD000ADF444 /* RTSpinKitThreeBounceAnimation.h in Headers */,
+				E11C6F5F1D616AD000ADF444 /* RTSpinKitUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,8 +346,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11C6F571D616AD000ADF444 /* RTSpinKitThreeBounceAnimation.m in Sources */,
+				E11C6F551D616AD000ADF444 /* RTSpinKitPulseAnimation.m in Sources */,
+				E11C6F431D616AD000ADF444 /* RTSpinKitArcAltAnimation.m in Sources */,
 				24DD6CFA1134B3F500162E58 /* ComBfTiSpinKitModule.m in Sources */,
+				E11C6F4D1D616AD000ADF444 /* RTSpinKitCircleFlipAnimation.m in Sources */,
+				E11C6F491D616AD000ADF444 /* RTSpinKitChasingDotsAnimation.m in Sources */,
+				E11C6F451D616AD000ADF444 /* RTSpinKitArcAnimation.m in Sources */,
+				E11C6F471D616AD000ADF444 /* RTSpinKitBounceAnimation.m in Sources */,
+				E11C6F4F1D616AD000ADF444 /* RTSpinKitFadingCircleAltAnimation.m in Sources */,
+				E11C6F5D1D616AD000ADF444 /* RTSpinKitWordPressAnimation.m in Sources */,
+				E11C6F411D616AD000ADF444 /* RTSpinKit9CubeGridAnimation.m in Sources */,
+				E11C6F531D616AD000ADF444 /* RTSpinKitPlaneAnimation.m in Sources */,
+				E11C6F601D616AD000ADF444 /* RTSpinKitUtils.m in Sources */,
+				E11C6F591D616AD000ADF444 /* RTSpinKitWanderingCubesAnimation.m in Sources */,
+				E11C6F621D616AD000ADF444 /* RTSpinKitView.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* ComBfTiSpinKitModuleAssets.m in Sources */,
+				E11C6F4B1D616AD000ADF444 /* RTSpinKitCircleAnimation.m in Sources */,
+				E11C6F6E1D61BB7700ADF444 /* ComBfTiSpinKitActivityIndicator.m in Sources */,
+				E11C6F5B1D616AD000ADF444 /* RTSpinKitWaveAnimation.m in Sources */,
+				E11C6F511D616AD000ADF444 /* RTSpinKitFadingCircleAnimation.m in Sources */,
+				E11C6F661D616E8B00ADF444 /* ComBfTiSpinKitActivityIndicatorProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
