@@ -65,7 +65,7 @@ To access this module from a Titanium project, you would do the following:
 ## License
 
 <pre>
-Copyright 2016 Jason Kneen
+Copyright 2016 BouncingFish
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
