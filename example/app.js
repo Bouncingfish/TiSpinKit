@@ -15,10 +15,8 @@ var TiSpinKit = require('com.bf.TiSpinKit');
 var actInd = TiSpinKit.createActivityIndicator({
 	top: 200, left: 100,
 	size: 20,
-	style: "FadingCircle",
-	color: "red"
-
-	//Plane
+	// STYLES
+	// Plane
 	// CircleFlip
 	// Bounce
 	// Wave
@@ -33,6 +31,8 @@ var actInd = TiSpinKit.createActivityIndicator({
 	// FadingCircleAlt
 	// Arc
 	// ArcAlt - default
+	style: "FadingCircle",
+	color: "red"
 });
 
 win.add(actInd);
