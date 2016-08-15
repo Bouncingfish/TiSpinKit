@@ -1,20 +1,18 @@
 
-# TiSpinKit Module
+# TiSpinKit
 
 ### Screenshot
 ![Screenshot](https://github.com/Bouncingfish/TiSpinKit/blob/master/example.gif)
 
 ## Description
 
-TODO: Enter your module description here
+Simple loading spinners based on SpinKit. 
 
-## Accessing the TiSpinKit Module
+## Usage
 
-To access this module from JavaScript, you would do the following:
+To access this module from a Titanium project, you would do the following:
 
     var tispinkit = require("com.bf.TiSpinKit");
-
-The tispinkit variable is a reference to the Module object.
 
 ## Reference
 
