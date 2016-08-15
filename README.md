@@ -5,7 +5,7 @@
 
 ## Description
 
-Simple loading spinners based on SpinKit. 
+Simple loading spinners for Titanium, based on SpinKit. 
 
 ## Usage
 
