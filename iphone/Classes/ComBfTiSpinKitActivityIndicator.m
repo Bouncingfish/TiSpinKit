@@ -46,63 +46,48 @@
     NSString *styleStr = [TiUtils stringValue:arg];
 
     if ([styleStr isEqual: @"Plane"]) {
-        NSLog(@"Plane");
         spinner.style = RTSpinKitViewStylePlane;
     }
     else if ([styleStr isEqual:@"CircleFlip"]) {
-        NSLog(@"CircleFlip");
         spinner.style = RTSpinKitViewStyleCircleFlip;
     }
     else if ([styleStr isEqual:@"Bounce"]) {
-        NSLog(@"Bounce");
         spinner.style = RTSpinKitViewStyleBounce;
     }
     else if ([styleStr isEqual:@"Wave"]) {
-        NSLog(@"Wave");
         spinner.style = RTSpinKitViewStyleWave;
     }
     else if ([styleStr isEqual:@"WanderingCubes"]) {
-        NSLog(@"WanderingCubes");
         spinner.style = RTSpinKitViewStyleWanderingCubes;
     }
     else if ([styleStr isEqual:@"Pulse"]) {
-        NSLog(@"Pulse");
         spinner.style = RTSpinKitViewStylePulse;
     }
     else if ([styleStr isEqual:@"ChasingDots"]) {
-        NSLog(@"ChasingDots");
         spinner.style = RTSpinKitViewStyleChasingDots;
     }
     else if ([styleStr isEqual:@"ThreeBounce"]) {
-        NSLog(@"ThreeBounce");
         spinner.style = RTSpinKitViewStyleThreeBounce;
     }
     else if ([styleStr isEqual:@"Circle"]) {
-        NSLog(@"Circle");
         spinner.style = RTSpinKitViewStyleCircle;
     }
     else if ([styleStr isEqual:@"9CubeGrid"]) {
-        NSLog(@"9CubeGrid");
         spinner.style = RTSpinKitViewStyle9CubeGrid;
     }
     else if ([styleStr isEqual:@"WordPress"]) {
-        NSLog(@"WordPress");
         spinner.style = RTSpinKitViewStyleWordPress;
     }
     else if ([styleStr isEqual:@"FadingCircle"]) {
-        NSLog(@"FadingCircle");
         spinner.style = RTSpinKitViewStyleFadingCircle;
     }
     else if ([styleStr isEqual:@"FadingCircleAlt"]) {
-        NSLog(@"FadingCircleAlt");
         spinner.style = RTSpinKitViewStyleFadingCircleAlt;
     }
     else if ([styleStr isEqual:@"Arc"]) {
-        NSLog(@"Arc");
         spinner.style = RTSpinKitViewStyleArc;
     }
     else {
-        NSLog(@"ArcAlt");
         spinner.style = RTSpinKitViewStyleArcAlt;
     }
 }
